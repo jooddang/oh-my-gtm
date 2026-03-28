@@ -1,0 +1,50 @@
+.venv/
+venv/
+.python-version
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+*.csr
+id_rsa
+id_ed25519
+
+# Local databases and runtime state
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.pid
+tmp/
+temp/
+
+# Generated artifacts and browser profiles
+output/
+artifacts/
+playwright/
+browser_e2e.db
+oh_my_gtm.db
+
+# Python packaging / build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
