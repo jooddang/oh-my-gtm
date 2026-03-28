@@ -4,7 +4,7 @@
 
 Demo video: [oh-my-gtm-demo.mp4](oh-my-gtm-demo.mp4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ieNK4yCiZZE?si=EXmr3wmwPWV5dTDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the demo on YouTube](https://img.youtube.com/vi/ieNK4yCiZZE/hqdefault.jpg)](https://www.youtube.com/watch?v=ieNK4yCiZZE)
 
 Policy-aware autonomous GTM agent for US-focused B2B SaaS outbound research and messaging.
 
