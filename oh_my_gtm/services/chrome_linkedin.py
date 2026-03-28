@@ -14,7 +14,11 @@ from typing import Callable
 from urllib.parse import quote
 
 import httpx
-from playwright.sync_api import sync_playwright
+
+try:
+    from playwright.sync_api import sync_playwright
+except ModuleNotFoundError:  # pragma: no cover - exercised in CI environments without Playwright
+    sync_playwright = None
 
 from oh_my_gtm.config import AppSettings
 from oh_my_gtm.schemas import LinkedInCollectedItem, LinkedInSearchResult, LinkedInSearchSpec
@@ -163,6 +167,8 @@ class ChromeLinkedInCollector:
         return self._collect_via_applescript(spec)
 
     def _collect_via_cdp(self, spec: LinkedInSearchSpec, port: int) -> LinkedInSearchResult:
+        if sync_playwright is None:
+            raise RuntimeError("Playwright is required for CDP-backed LinkedIn collection but is not installed.")
         search_url = f"https://www.linkedin.com/search/results/{spec.vertical}/?keywords={quote(spec.query)}"
         with sync_playwright() as playwright:
             browser = playwright.chromium.connect_over_cdp(f"http://127.0.0.1:{port}")
