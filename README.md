@@ -1,9 +1,4 @@
 # oh-my-gtm
-
-![oh-my-gtm cover](cover-image.png)
-
-Demo video: [oh-my-gtm-demo.mp4](oh-my-gtm-demo.mp4)
-
 <p align="center">
   <a href="https://www.youtube.com/watch?v=ieNK4yCiZZE">
     <img src="https://i.ytimg.com/vi/ieNK4yCiZZE/hqdefault.jpg" alt="Watch the demo on YouTube" width="720" />
