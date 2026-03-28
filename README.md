@@ -1,5 +1,7 @@
 # oh-my-gtm
 
+![oh-my-gtm cover](cover-image.png)
+
 Policy-aware autonomous GTM agent for US-focused B2B SaaS outbound research and messaging.
 
 This repo started from strategy-only markdowns and is now a runnable hackathon MVP that:

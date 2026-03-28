@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774739342138,
+  "projectRoot": "/Users/jooddang/Documents/oh-my-gtm",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml"
+        ]
+      },
+      {
+        "name": "C/C++",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "Makefile"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "make build",
+    "testCommand": "make test",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "scripts",
+      "tests"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 3,
+      "lastAccessed": 1774739342131,
+      "keyFiles": [
+        "PRD.md",
+        "architecture.md",
+        "decisions-and-ambiguities.md"
+      ]
+    },
+    "migrations": {
+      "path": "migrations",
+      "purpose": "Database migrations",
+      "fileCount": 1,
+      "lastAccessed": 1774739342132,
+      "keyFiles": [
+        "0001_initial.sql"
+      ]
+    },
+    "oh_my_gtm": {
+      "path": "oh_my_gtm",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1774739342132,
+      "keyFiles": [
+        "__init__.py",
+        "config.py",
+        "database.py",
+        "models.py",
+        "schemas.py"
+      ]
+    },
+    "oh_my_gtm.egg-info": {
+      "path": "oh_my_gtm.egg-info",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1774739342132,
+      "keyFiles": [
+        "PKG-INFO",
+        "SOURCES.txt",
+        "dependency_links.txt",
+        "entry_points.txt",
+        "requires.txt"
+      ]
+    },
+    "output": {
+      "path": "output",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774739342132,
+      "keyFiles": []
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 2,
+      "lastAccessed": 1774739342133,
+      "keyFiles": [
+        "linkedin_search_collector.py",
+        "seed_demo.py"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 12,
+      "lastAccessed": 1774739342133,
+      "keyFiles": [
+        "test_briefing.py",
+        "test_browser_executor.py",
+        "test_context.py",
+        "test_daemon_worker.py",
+        "test_linkedin_agent.py"
+      ]
+    },
+    "oh_my_gtm/api": {
+      "path": "oh_my_gtm/api",
+      "purpose": "API routes",
+      "fileCount": 2,
+      "lastAccessed": 1774739342134,
+      "keyFiles": [
+        "__init__.py",
+        "app.py"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
